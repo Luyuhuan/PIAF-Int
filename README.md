@@ -34,13 +34,11 @@ Make sure to install the necessary packages in your environment:
 ```bash
 pip install torch
 pip install mmcv
+```
+
 ###  2. Code Compilation
 
-Compile the `mmseg` and `mmpretrain` code provided in this repository. Note that these codes are modified from the official ones. Use the provided compilation script or follow the instructions in the repository.
-
-```bash
-# Example compilation command
-./compile_script.sh
+Compile the `mmseg` and `mmpretrain` code provided in this repository. Note that these codes are modified from the official ones.
 
 ### 3. Data Preparation for Training
 
@@ -54,6 +52,7 @@ Use the following command for training:
 
 ```bash
 nohup ./dist_train.sh mmpretrain/configs/xcit/xcit-nano-12-p16_8xb128_in1k.py gpunum --work-dir yourworkpath >yourlogpath  2>&1 &
+```
 
 Replace mmpretrain/configs/xcit/xcit-nano-12-p16_8xb128_in1k.py with your chosen configuration file, gpunum with the number of GPUs you want to use, yourworkpath with the path where you want to save the training results, and yourlogpath with the path to save the training logs.
 
@@ -64,6 +63,7 @@ Run the following command for testing:
 
 ```bash
 python run_dist_test.py
+```
 
 The test results will be automatically saved in log and pkl files.
 
