@@ -54,8 +54,7 @@ Use the following command for training:
 nohup ./dist_train.sh mmpretrain/configs/xcit/xcit-nano-12-p16_8xb128_in1k.py gpunum --work-dir yourworkpath >yourlogpath  2>&1 &
 ```
 
-Replace `mmpretrain/configs/xcit/xcit-nano-12-p16_8xb128_in1k.py` with your chosen configuration file, `gpunum` with the number of GPUs you want to use, `yourworkpath` with the path where you want to save the training results, and `yourlogpath` with the
-
+Replace `mmpretrain/configs/xcit/xcit-nano-12-p16_8xb128_in1k.py` with your chosen configuration file, **gpunum** with the number of GPUs you want to use, **yourworkpath** with the path where you want to save the training results, and **yourlogpath** with the path to save the training logs.
 
 Please note: If you need to modify parameters, you can do so in the configuration files.
 #### Testing
