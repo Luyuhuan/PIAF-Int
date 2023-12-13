@@ -74,5 +74,5 @@ The relevant statistical tool code is located in the tool path. Use the tools as
 
 ## Feedback
 
-Feel free to contribute, report issues, or give feedback. Together, let's advance CHD diagnosis using state-of-the-art technology!
+Feel free to contribute, report issues, or give feedback. Together, let's advance CHD diagnosis using state-of-the-art technology! 🌈
 
